@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Compound Ad</title>
+    <style>
+        body {
+            font-family: 'Courier New', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 30px 0 30px 0;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container img {
+            width: calc(100% - 10px);
+            max-width: 120vw;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 0px;
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        }
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            color: white; /* Ensures white text on buttons */
+            font-family: "Courier New"
+        }
+
+        .button-container button:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .btn1 { background-color: #d47f11; }
+        .btn2 { background-color: #4c9181; }
+        .btn3 { background-color: #eb8f4d; }
+
+    </style>
+</head>
+<body>
+
+    
+
+    <!-- Image Container -->
+    <div class="image-container">
+        <img src="image1.png" alt="Slide 1">
+        <img src="image2.png" alt="Slide 2">
+    </div>
+
+    <!-- Button Container -->
+    <div class="button-container">
+        <a href="https://www.amazon.com/Compound-S-Bodeen/dp/0312370156?_encoding=UTF8&qid=&sr=" target="_blank">
+            <button class="btn1">Buy from Amazon</button>
+        </a>
+        
+        <a href="https://cynthialeitichsmith.com/2008/05/author-interview-s-bodeen-on-compound/" target="_blank">
+            <button class="btn2">More about the Author</button>
+        </a>
+        
+        <a href="https://www.goodreads.com/book/show/2696181-the-compound" target="_blank">
+            <button class="btn3">Goodreads</button>
+        </a>
+        
+    </div>
+
+</body>
+</html>
